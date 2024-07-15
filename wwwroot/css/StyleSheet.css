@@ -1,0 +1,19 @@
+﻿
+@media (min-width: 600px) {
+    .conditional-image {
+        width: 474px;
+        margin-left: 516px;
+        position: absolute;
+        
+    }
+}
+@media  (max-width: 600px) {
+    .conditional-image {
+        display: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+
+
+
